@@ -8,5 +8,11 @@
         {
             x = x * 3;
         }
+
+        //para um modificador OUT, é preciso estar declarado nos parâmetros do método
+        public static void Triplo2(int origem, out int resultado)
+        {
+            resultado = origem * 3;
+        }
     }
 }
