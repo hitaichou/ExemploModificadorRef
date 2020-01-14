@@ -6,7 +6,10 @@ namespace ExemploModificadorRef
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Modificador REF
+            int a = 10;
+            Calculadora.Triplo(ref a);
+            Console.WriteLine(a);
         }
     }
 }
